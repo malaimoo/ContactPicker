@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB242201AD24A7800FFCEF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB2421F1AD24A7800FFCEF4 /* main.m */; };
+		3BB242231AD24A7800FFCEF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB242221AD24A7800FFCEF4 /* AppDelegate.m */; };
+		3BB242261AD24A7800FFCEF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB242251AD24A7800FFCEF4 /* ViewController.m */; };
+		3BB242291AD24A7800FFCEF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB242271AD24A7800FFCEF4 /* Main.storyboard */; };
+		3BB2422B1AD24A7800FFCEF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2422A1AD24A7800FFCEF4 /* Images.xcassets */; };
+		3BB2422E1AD24A7800FFCEF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2422C1AD24A7800FFCEF4 /* LaunchScreen.xib */; };
+		3BB2423A1AD24A7900FFCEF4 /* ContactPicker_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB242391AD24A7900FFCEF4 /* ContactPicker_DemoTests.m */; };
+		3BB242521AD24ADC00FFCEF4 /* THContactPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB242461AD24ADC00FFCEF4 /* THContactPickerView.m */; };
+		3BB242531AD24ADC00FFCEF4 /* THContactPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BB242471AD24ADC00FFCEF4 /* THContactPickerViewController.xib */; };
+		3BB242541AD24ADC00FFCEF4 /* THContactTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB242491AD24ADC00FFCEF4 /* THContactTextField.m */; };
+		3BB242551AD24ADC00FFCEF4 /* THContactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB2424B1AD24ADC00FFCEF4 /* THContactView.m */; };
+		3BB242561AD24ADC00FFCEF4 /* THContactViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB2424D1AD24ADC00FFCEF4 /* THContactViewStyle.m */; };
+		3BB242571AD24ADC00FFCEF4 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BB2424E1AD24ADC00FFCEF4 /* pinyin.c */; };
+		3BB242581AD24ADC00FFCEF4 /* ZCAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB242511AD24ADC00FFCEF4 /* ZCAddressBook.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3BB2425E1AD24B0800FFCEF4 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB2425B1AD24B0800FFCEF4 /* BaseModel.m */; };
+		3BB2425F1AD24B0800FFCEF4 /* EmployeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB2425D1AD24B0800FFCEF4 /* EmployeModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BB242341AD24A7800FFCEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB242121AD24A7800FFCEF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB242191AD24A7800FFCEF4;
+			remoteInfo = "ContactPicker-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BB2421A1AD24A7800FFCEF4 /* ContactPicker-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ContactPicker-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB2421E1AD24A7800FFCEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB2421F1AD24A7800FFCEF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BB242211AD24A7800FFCEF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BB242221AD24A7800FFCEF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BB242241AD24A7800FFCEF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BB242251AD24A7800FFCEF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BB242281AD24A7800FFCEF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BB2422A1AD24A7800FFCEF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BB2422D1AD24A7800FFCEF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3BB242331AD24A7800FFCEF4 /* ContactPicker-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ContactPicker-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB242381AD24A7900FFCEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB242391AD24A7900FFCEF4 /* ContactPicker_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactPicker_DemoTests.m; sourceTree = "<group>"; };
+		3BB242451AD24ADC00FFCEF4 /* THContactPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactPickerView.h; sourceTree = "<group>"; };
+		3BB242461AD24ADC00FFCEF4 /* THContactPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactPickerView.m; sourceTree = "<group>"; };
+		3BB242471AD24ADC00FFCEF4 /* THContactPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THContactPickerViewController.xib; sourceTree = "<group>"; };
+		3BB242481AD24ADC00FFCEF4 /* THContactTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactTextField.h; sourceTree = "<group>"; };
+		3BB242491AD24ADC00FFCEF4 /* THContactTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactTextField.m; sourceTree = "<group>"; };
+		3BB2424A1AD24ADC00FFCEF4 /* THContactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactView.h; sourceTree = "<group>"; };
+		3BB2424B1AD24ADC00FFCEF4 /* THContactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactView.m; sourceTree = "<group>"; };
+		3BB2424C1AD24ADC00FFCEF4 /* THContactViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactViewStyle.h; sourceTree = "<group>"; };
+		3BB2424D1AD24ADC00FFCEF4 /* THContactViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactViewStyle.m; sourceTree = "<group>"; };
+		3BB2424E1AD24ADC00FFCEF4 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		3BB2424F1AD24ADC00FFCEF4 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		3BB242501AD24ADC00FFCEF4 /* ZCAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCAddressBook.h; sourceTree = "<group>"; };
+		3BB242511AD24ADC00FFCEF4 /* ZCAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCAddressBook.m; sourceTree = "<group>"; };
+		3BB2425A1AD24B0800FFCEF4 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		3BB2425B1AD24B0800FFCEF4 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		3BB2425C1AD24B0800FFCEF4 /* EmployeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeModel.h; sourceTree = "<group>"; };
+		3BB2425D1AD24B0800FFCEF4 /* EmployeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB242171AD24A7800FFCEF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB242301AD24A7800FFCEF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB242111AD24A7800FFCEF4 = {
+			isa = PBXGroup;
+			children = (
+				3BB2421C1AD24A7800FFCEF4 /* ContactPicker-Demo */,
+				3BB242361AD24A7800FFCEF4 /* ContactPicker-DemoTests */,
+				3BB2421B1AD24A7800FFCEF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BB2421B1AD24A7800FFCEF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB2421A1AD24A7800FFCEF4 /* ContactPicker-Demo.app */,
+				3BB242331AD24A7800FFCEF4 /* ContactPicker-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB2421C1AD24A7800FFCEF4 /* ContactPicker-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3BB242591AD24AFD00FFCEF4 /* Model */,
+				3BB242431AD24AC300FFCEF4 /* ContactPicker */,
+				3BB242211AD24A7800FFCEF4 /* AppDelegate.h */,
+				3BB242221AD24A7800FFCEF4 /* AppDelegate.m */,
+				3BB242241AD24A7800FFCEF4 /* ViewController.h */,
+				3BB242251AD24A7800FFCEF4 /* ViewController.m */,
+				3BB242271AD24A7800FFCEF4 /* Main.storyboard */,
+				3BB2422A1AD24A7800FFCEF4 /* Images.xcassets */,
+				3BB2422C1AD24A7800FFCEF4 /* LaunchScreen.xib */,
+				3BB2421D1AD24A7800FFCEF4 /* Supporting Files */,
+			);
+			path = "ContactPicker-Demo";
+			sourceTree = "<group>";
+		};
+		3BB2421D1AD24A7800FFCEF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB2421E1AD24A7800FFCEF4 /* Info.plist */,
+				3BB2421F1AD24A7800FFCEF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BB242361AD24A7800FFCEF4 /* ContactPicker-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB242391AD24A7900FFCEF4 /* ContactPicker_DemoTests.m */,
+				3BB242371AD24A7800FFCEF4 /* Supporting Files */,
+			);
+			path = "ContactPicker-DemoTests";
+			sourceTree = "<group>";
+		};
+		3BB242371AD24A7800FFCEF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB242381AD24A7900FFCEF4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BB242431AD24AC300FFCEF4 /* ContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3BB242441AD24ADC00FFCEF4 /* ContactPicker */,
+				3BB2424E1AD24ADC00FFCEF4 /* pinyin.c */,
+				3BB2424F1AD24ADC00FFCEF4 /* pinyin.h */,
+				3BB242501AD24ADC00FFCEF4 /* ZCAddressBook.h */,
+				3BB242511AD24ADC00FFCEF4 /* ZCAddressBook.m */,
+			);
+			name = ContactPicker;
+			sourceTree = "<group>";
+		};
+		3BB242441AD24ADC00FFCEF4 /* ContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3BB242451AD24ADC00FFCEF4 /* THContactPickerView.h */,
+				3BB242461AD24ADC00FFCEF4 /* THContactPickerView.m */,
+				3BB242471AD24ADC00FFCEF4 /* THContactPickerViewController.xib */,
+				3BB242481AD24ADC00FFCEF4 /* THContactTextField.h */,
+				3BB242491AD24ADC00FFCEF4 /* THContactTextField.m */,
+				3BB2424A1AD24ADC00FFCEF4 /* THContactView.h */,
+				3BB2424B1AD24ADC00FFCEF4 /* THContactView.m */,
+				3BB2424C1AD24ADC00FFCEF4 /* THContactViewStyle.h */,
+				3BB2424D1AD24ADC00FFCEF4 /* THContactViewStyle.m */,
+			);
+			path = ContactPicker;
+			sourceTree = "<group>";
+		};
+		3BB242591AD24AFD00FFCEF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BB2425A1AD24B0800FFCEF4 /* BaseModel.h */,
+				3BB2425B1AD24B0800FFCEF4 /* BaseModel.m */,
+				3BB2425C1AD24B0800FFCEF4 /* EmployeModel.h */,
+				3BB2425D1AD24B0800FFCEF4 /* EmployeModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BB242191AD24A7800FFCEF4 /* ContactPicker-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB2423D1AD24A7900FFCEF4 /* Build configuration list for PBXNativeTarget "ContactPicker-Demo" */;
+			buildPhases = (
+				3BB242161AD24A7800FFCEF4 /* Sources */,
+				3BB242171AD24A7800FFCEF4 /* Frameworks */,
+				3BB242181AD24A7800FFCEF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ContactPicker-Demo";
+			productName = "ContactPicker-Demo";
+			productReference = 3BB2421A1AD24A7800FFCEF4 /* ContactPicker-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BB242321AD24A7800FFCEF4 /* ContactPicker-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB242401AD24A7900FFCEF4 /* Build configuration list for PBXNativeTarget "ContactPicker-DemoTests" */;
+			buildPhases = (
+				3BB2422F1AD24A7800FFCEF4 /* Sources */,
+				3BB242301AD24A7800FFCEF4 /* Frameworks */,
+				3BB242311AD24A7800FFCEF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB242351AD24A7800FFCEF4 /* PBXTargetDependency */,
+			);
+			name = "ContactPicker-DemoTests";
+			productName = "ContactPicker-DemoTests";
+			productReference = 3BB242331AD24A7800FFCEF4 /* ContactPicker-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB242121AD24A7800FFCEF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = ST;
+				TargetAttributes = {
+					3BB242191AD24A7800FFCEF4 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3BB242321AD24A7800FFCEF4 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3BB242191AD24A7800FFCEF4;
+					};
+				};
+			};
+			buildConfigurationList = 3BB242151AD24A7800FFCEF4 /* Build configuration list for PBXProject "ContactPicker-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BB242111AD24A7800FFCEF4;
+			productRefGroup = 3BB2421B1AD24A7800FFCEF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BB242191AD24A7800FFCEF4 /* ContactPicker-Demo */,
+				3BB242321AD24A7800FFCEF4 /* ContactPicker-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BB242181AD24A7800FFCEF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB242291AD24A7800FFCEF4 /* Main.storyboard in Resources */,
+				3BB242531AD24ADC00FFCEF4 /* THContactPickerViewController.xib in Resources */,
+				3BB2422E1AD24A7800FFCEF4 /* LaunchScreen.xib in Resources */,
+				3BB2422B1AD24A7800FFCEF4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB242311AD24A7800FFCEF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB242161AD24A7800FFCEF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB242571AD24ADC00FFCEF4 /* pinyin.c in Sources */,
+				3BB242261AD24A7800FFCEF4 /* ViewController.m in Sources */,
+				3BB242551AD24ADC00FFCEF4 /* THContactView.m in Sources */,
+				3BB242521AD24ADC00FFCEF4 /* THContactPickerView.m in Sources */,
+				3BB242231AD24A7800FFCEF4 /* AppDelegate.m in Sources */,
+				3BB2425F1AD24B0800FFCEF4 /* EmployeModel.m in Sources */,
+				3BB242541AD24ADC00FFCEF4 /* THContactTextField.m in Sources */,
+				3BB242561AD24ADC00FFCEF4 /* THContactViewStyle.m in Sources */,
+				3BB242581AD24ADC00FFCEF4 /* ZCAddressBook.m in Sources */,
+				3BB2425E1AD24B0800FFCEF4 /* BaseModel.m in Sources */,
+				3BB242201AD24A7800FFCEF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB2422F1AD24A7800FFCEF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB2423A1AD24A7900FFCEF4 /* ContactPicker_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BB242351AD24A7800FFCEF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB242191AD24A7800FFCEF4 /* ContactPicker-Demo */;
+			targetProxy = 3BB242341AD24A7800FFCEF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BB242271AD24A7800FFCEF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB242281AD24A7800FFCEF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BB2422C1AD24A7800FFCEF4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB2422D1AD24A7800FFCEF4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BB2423B1AD24A7900FFCEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BB2423C1AD24A7900FFCEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BB2423E1AD24A7900FFCEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ContactPicker-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BB2423F1AD24A7900FFCEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ContactPicker-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BB242411AD24A7900FFCEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ContactPicker-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactPicker-Demo.app/ContactPicker-Demo";
+			};
+			name = Debug;
+		};
+		3BB242421AD24A7900FFCEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ContactPicker-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactPicker-Demo.app/ContactPicker-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB242151AD24A7800FFCEF4 /* Build configuration list for PBXProject "ContactPicker-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB2423B1AD24A7900FFCEF4 /* Debug */,
+				3BB2423C1AD24A7900FFCEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB2423D1AD24A7900FFCEF4 /* Build configuration list for PBXNativeTarget "ContactPicker-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB2423E1AD24A7900FFCEF4 /* Debug */,
+				3BB2423F1AD24A7900FFCEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BB242401AD24A7900FFCEF4 /* Build configuration list for PBXNativeTarget "ContactPicker-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB242411AD24A7900FFCEF4 /* Debug */,
+				3BB242421AD24A7900FFCEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB242121AD24A7800FFCEF4 /* Project object */;
+}
